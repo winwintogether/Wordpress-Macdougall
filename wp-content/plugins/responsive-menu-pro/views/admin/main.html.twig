@@ -1,0 +1,35 @@
+{#
+    Responsive Menu Jinja template file.
+    NOT Safe to Copy
+
+    Do Not Copy
+#}
+
+<div id='responsive-menu-admin' class='container-fluid'>
+    <form class='form-horizontal form-inline' id='responsive-menu-pro-form' action='' method='post' enctype='multipart/form-data'>
+        {{ csrf() }}
+        {% include 'admin/alerts.html.twig' %}
+        {% include 'admin/tabs.html.twig' %}
+        <div class="col-md-3 text-right top-submit-buttons">
+            <button type='button' id='responsive-menu-preview' name='responsive-menu-pro-preview' class='btn btn-default btn-rm'>Preview Changes</button>
+            <button type='submit' name='responsive-menu-pro-submit' class='btn btn-primary btn-rm'>Update Options</button>
+        </div>
+        <div id='options-area'>
+            <div class='panel panel-default' id='filter-options-container'>
+                <div class='panel-body'><span class="glyphicon glyphicon-search"></span>Filter Options</div>
+                <table class='table table-hover'>
+                    <td class='well col-md-3'>
+                        <input type="search" class="form-control" name="filter-options" id="filter-options" placeholder="Start typing to filter options" />
+                    </td>
+                </table>
+            </div>
+            {% include 'admin/options.html.twig' %}
+            <input type='hidden' id='responsive-menu-current-page' name='responsive-menu-pro-current-page' value="{{ current_page() }}" />
+            <button type='button' id='responsive-menu-preview' name='responsive-menu-pro-preview' class='btn btn-default btn-rm'>Preview Changes</button>
+            <button type='submit' name='responsive-menu-pro-submit' class='btn btn-primary btn-rm'>Update Options</button>
+        </div><!--
+        --><div id='banner-area'>
+            {% include 'admin/banners.html.twig' %}
+        </div>
+    </form>
+</div>

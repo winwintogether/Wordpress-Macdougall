@@ -1,0 +1,232 @@
+{# --> Hack to stop transitions when resizing the browser to reveal the desktop menu #}
+#responsive-menu-pro-container.responsive-menu-pro-no-transition {
+    transition: none;
+}
+
+{# --> Hide these items from the Responsive Menu #}
+#responsive-menu-pro .responsive-menu-pro-desktop-menu-image,
+#responsive-menu-pro .responsive-menu-pro-desktop-menu-text {
+    display: none;
+}
+
+@media screen and (min-width: {{ options.breakpoint + 1 }}px) {
+
+    {% set desktop_menu_options = options.desktop_menu_options|json_decode %}
+
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-1,
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-2,
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-3,
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-4,
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-5,
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-6,
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-7,
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-8,
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-9,
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-10,
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-11,
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-12 {
+        {# float: left; #}
+        min-height: 1px;
+    }
+
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-12 {
+        width: 100%;
+    }
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-11 {
+        width: 91.66666667%;
+    }
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-10 {
+        width: 83.33333333%;
+    }
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-9 {
+        width: 75%;
+    }
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-8 {
+        width: 66.66666667%;
+    }
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-7 {
+        width: 58.33333333%;
+    }
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-6 {
+        width: 50%;
+    }
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-5 {
+        width: 41.66666667%;
+    }
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-4 {
+        width: 33.33333333%;
+    }
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-3 {
+        width: 25%;
+    }
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-2 {
+        width: 16.66666667%;
+    }
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-col-1 {
+        width: 8.33333333%;
+    }
+
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-image {
+        max-width: 100%;
+    }
+
+    {# --> Hide the Responsive Menu items (title, additional HTML etc.) #}
+    #responsive-menu-pro-container div {
+        display: none;
+    }
+
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-image,
+    #responsive-menu-pro .responsive-menu-pro-desktop-menu-text,
+    #responsive-menu-pro-container #responsive-menu-pro-wrapper,
+    #responsive-menu-pro-container #responsive-menu-pro,
+    #responsive-menu-pro-container {
+        display: block;
+    }
+
+    #responsive-menu-pro {
+        list-style-type: none;
+        position: relative;
+        margin: 0;
+    }
+
+    #responsive-menu-pro li .responsive-menu-pro-desktop-menu-text {
+        white-space: normal;
+    }
+
+    #responsive-menu-pro li {
+        box-sizing: border-box;
+        display: inline-block;
+        white-space: nowrap;
+        margin: 0;
+        vertical-align: top;
+        text-align: left;
+    }
+
+    #responsive-menu-pro li a {
+        height: {{ options.single_menu_height }}{{ options.single_menu_height_unit }};
+        line-height: {{ options.single_menu_line_height }}{{ options.single_menu_line_height_unit }};
+        color: {{ options.single_menu_item_link_colour }};
+        background: {{ options.single_menu_item_background_colour }};
+        text-decoration: none;
+        transition: color {{ options.transition_speed }}s, background {{ options.transition_speed }}s;
+        display: block;
+        padding: 0 15px;
+        font-size: {{ options.single_menu_font_size }}{{ options.single_menu_font_size_unit }};
+        {% if options.single_menu_font %}
+            font-family: '{{ options.single_menu_font }}';
+        {% endif %}
+    }
+
+    #responsive-menu-pro li a .glyphicon,
+    #responsive-menu-pro li a .fa {
+        margin-right: 5px;
+    }
+
+    #responsive-menu-pro li a:hover {
+        color: {{ options.single_menu_item_link_colour_hover }};
+        background: {{ options.single_menu_item_background_colour_hover }};
+    }
+
+    #responsive-menu-pro li .responsive-menu-pro-submenu {
+        display: none;
+        position: absolute;
+        margin: 0;
+        top: {{ options.single_menu_height }}{{ options.single_menu_height_unit }};
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    #responsive-menu-pro li .responsive-menu-pro-submenu:not(.responsive-menu-pro-desktop-menu-container) li {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    #responsive-menu-pro li .responsive-menu-pro-submenu li a {
+        background: {{ options.single_menu_item_submenu_background_colour }};
+        color: {{ options.single_menu_item_submenu_link_colour }};
+        font-size: {{ options.single_menu_submenu_font_size }}{{ options.single_menu_submenu_font_size_unit }};
+        {% if options.single_menu_submenu_height_unit != 'auto' and options.single_menu_submenu_height %}
+            height: {{ options.single_menu_submenu_height }}{{ options.single_menu_submenu_height_unit }};
+        {% else %}
+            height: auto;
+        {% endif %}
+        line-height: {{ options.single_menu_submenu_line_height }}{{ options.single_menu_submenu_line_height_unit }};
+        {% if options.single_menu_submenu_font %}
+            font-family: '{{ options.single_menu_submenu_font }}';
+        {% endif %}
+    }
+
+    #responsive-menu-pro li .responsive-menu-pro-submenu li a:hover {
+        color: {{ options.single_menu_item_submenu_link_colour_hover }};
+        background: {{ options.single_menu_item_submenu_background_colour_hover }};
+    }
+
+    #responsive-menu-pro li .responsive-menu-pro-submenu li a .responsive-menu-pro-desktop-menu-text {
+        line-height: {{ options.single_menu_submenu_font_size }}{{ options.single_menu_submenu_font_size_unit }};
+    }
+
+    #responsive-menu-pro li .responsive-menu-pro-submenu li .responsive-menu-pro-submenu {
+        top: 0;
+        left: 100%;
+    }
+
+    #responsive-menu-pro li .responsive-menu-pro-submenu.responsive-menu-pro-desktop-menu-container {
+        left: 0;
+        width: 100%;
+        right: 0;
+    }
+
+    #responsive-menu-pro li:hover >.responsive-menu-pro-submenu {
+        display: block;
+    }
+
+    {# --> Stop Mega Menu from going beyond 3 depth #}
+    #responsive-menu-pro li .responsive-menu-pro-submenu.responsive-menu-pro-desktop-menu-container ul.responsive-menu-pro-submenu-depth-2 li:hover ul {
+        display: none;
+    }
+
+    {# --> Allow second level depth menu items to auto show for Mega Menu #}
+    #responsive-menu-pro li .responsive-menu-pro-submenu.responsive-menu-pro-desktop-menu-container ul.responsive-menu-pro-submenu-depth-2 {
+        display: block;
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+
+    #responsive-menu-pro-container {
+        position: {{ options.desktop_menu_positioning }};
+        top: 0;
+        {% if options.desktop_menu_width %}
+            width: {{ options.desktop_menu_width }}{{ options.desktop_menu_width_unit }};
+        {% endif %}
+        {% if options.desktop_menu_side %}
+            {% if options.desktop_menu_side == 'centre'  %}
+                {% if options.desktop_menu_positioning == 'relative' %}
+                    text-align: center;
+                {% else %}
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                    text-align: center;
+                {% endif %}
+            {% else %}
+                {{ options.desktop_menu_side }}: 0;
+            {% endif %}
+        {% endif %}
+    }
+
+    {% for key, option in desktop_menu_options %}
+        {% if option['parent_background_colour'] or option['parent_background_image'] %}
+            #responsive-menu-pro-container #responsive-menu-pro-item-{{ key }} .responsive-menu-pro-desktop-menu-container {
+                {% if option['parent_background_colour'] %}
+                    background-color: {{ option['parent_background_colour'] }};
+                {% endif %}
+                {% if option['parent_background_image'] %}
+                    background-image: url('{{ option['parent_background_image'] }}');
+                    background-size: cover;
+                {% endif %}
+            }
+        {% endif %}
+    {% endfor %}
+
+}

@@ -1,0 +1,1484 @@
+# Copyright (C) 2016 Soliloquy
+# This file is distributed under the same license as the Soliloquy package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Soliloquy 2.4.3.8\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/soliloquy\n"
+"POT-Creation-Date: 2016-02-03 09:12+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-02-05 09:59+0100\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7\n"
+"Last-Translator: Joseph Rézeau <joseph@rezeau.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: includes/admin/common.php:84
+msgid ""
+"Soliloquy is now rocking v2! <strong>You need to upgrade your legacy v1 "
+"sliders and pre-official release v2 sliders to the official v2 slider "
+"architecture.</strong> <a href=\"%s\">Click here to begin the upgrade "
+"process.</a>"
+msgstr ""
+"Soliloquy en est maintenant à sa version 2 ! <strong>Vous devez effectuer la "
+"mise à niveau de vos diaporamas version 1 et vos diaporamas version 2 beta "
+"vers la nouvelle version 2 officielle.</strong>  <a href=\"%s\">Cliquez ici "
+"pour commencer le processus de mise à niveau.</a>"
+
+#: includes/admin/common.php:104
+msgid "Congratulations! You have upgraded your sliders successfully!"
+msgstr "Félicitations ! Vos diaporamas ont été correctement mis à jour."
+
+#: includes/admin/common.php:268
+msgid "Before Existing Slides"
+msgstr "Avant les diapositives existantes"
+
+#: includes/admin/common.php:272
+msgid "After Existing Slides"
+msgstr "Après les diapositives existantes"
+
+#: includes/admin/editor.php:74
+msgid "Add Slider"
+msgstr "Ajouter un diaporama"
+
+#: includes/admin/editor.php:135
+msgid "Choose Your Slider"
+msgstr "Choisissez votre diaporama"
+
+#: includes/admin/editor.php:156 includes/global/widget.php:163
+msgid "Slider ID #%s"
+msgstr "Diaporama ID #%s"
+
+#: includes/admin/editor.php:173 includes/admin/metaboxes.php:647
+#: includes/admin/metaboxes.php:677 includes/admin/metaboxes.php:735
+msgid "Helpful Tips"
+msgstr "Conseils pratiques"
+
+#: includes/admin/editor.php:174
+msgid "Choosing Your Slider"
+msgstr "Choisissez votre diaporama"
+
+#: includes/admin/editor.php:175
+msgid ""
+"To choose your slider, simply click on one of the boxes to the left. The "
+"\"Insert Slider\" button will be activated once you have selected a slider."
+msgstr ""
+"Pour choisir votre diaporama, cliquez sur l'une des boîtes à gauche. Le "
+"bouton \"Insérer Diaporama\" sera actif lorsque vous aurez choisi un "
+"diaporama."
+
+#: includes/admin/editor.php:176
+msgid "Inserting Your Slider"
+msgstr "Insérer votre diaporama"
+
+#: includes/admin/editor.php:177
+msgid ""
+"To insert your slider into the editor, click on the \"Insert Slider\" button "
+"below."
+msgstr ""
+"Pour insérer votre diaporama dans l'éditeur, cliquez sur le bouton \"Insérer "
+"Diaporama\" ci-dessous."
+
+#: includes/admin/editor.php:189
+msgid "Cancel Slider Insertion"
+msgstr "Annuler l'insertion du diaporama"
+
+#: includes/admin/editor.php:192
+msgid "Insert Slider"
+msgstr "Insérer Diaporama"
+
+#: includes/admin/import.php:84
+msgid "Sorry, but you lack the permissions to import a slider to this post."
+msgstr ""
+"Désolé, vous n'êtes pas aurorisé à importer un diaporama dans cet article."
+
+#: includes/admin/import.php:89
+msgid ""
+"Sorry, but the post ID you are attempting to import the slider to cannot "
+"handle a slider."
+msgstr ""
+"Désolé, l'article avec l'identifiant ID dans lequel vous essayez d'importer "
+"un diaporama ne permet pas cette opération."
+
+#: includes/admin/import.php:94
+msgid "Sorry, but there are no files available to import a slider."
+msgstr "Désolé, il n'y a pas de fichier disponible pour importer un diaporama."
+
+#: includes/admin/import.php:99
+msgid ""
+"Sorry, but you have attempted to upload a slider import file with an "
+"incompatible filename. Soliloquy import files must begin with \"soliloquy\"."
+msgstr ""
+"Désolé, vous avez tenté de charger un fichier d'importation de diaporama "
+"avec un nom de fichier incompatible. Les fichiers d'importation de Soliloquy "
+"doivent commencer par \"soliloquy\"."
+
+#: includes/admin/import.php:104
+msgid "Sorry, but Soliloquy import files must be in <code>.json</code> format."
+msgstr ""
+"Désolé, les fichiers d'importation Soliloquy doivent être au format <code>."
+"json</code>."
+
+#: includes/admin/import.php:111
+msgid ""
+"Sorry, but there was an error retrieving the contents of the slider export "
+"file. Please try again."
+msgstr ""
+"Désolé, il y a eu une erreur lors du chargement du contenu du fichier "
+"d'exportation du diaporama. Merci de recommencer."
+
+#: includes/admin/import.php:147
+msgid "Imported Slider #%s"
+msgstr "Diaporama importé n° %s "
+
+#: includes/admin/import.php:600
+msgid ""
+"Soliloquy slider imported. Please check to ensure all images and data have "
+"been imported properly."
+msgstr ""
+"Diaporama Soliloquy importé. Merci de vérifier que toutes les images et leur "
+"métadonnées ont été correctement importées."
+
+#: includes/admin/license.php:128 includes/admin/license.php:221
+#: includes/admin/license.php:310
+msgid ""
+"There was an error connecting to the remote key API. Please try again later."
+msgstr ""
+"Une erreur est survenue lors de la connexion à la clé API distance. Merci de "
+"recommencer un peu plus tard."
+
+#: includes/admin/license.php:145
+msgid "Congratulations! This site is now receiving automatic updates."
+msgstr "Félicitations ! Ce site sera maintenant automatiquement mis à jour."
+
+#: includes/admin/license.php:263
+msgid "Congratulations! Your key has been refreshed successfully."
+msgstr "Félicitations ! Votre clé a été rafraichie avec succès."
+
+#: includes/admin/license.php:321
+msgid ""
+"Congratulations! You have deactivated the key from this site successfully."
+msgstr "Félicitations ! Vous avez désactivé votre clé sur ce site avec succès."
+
+#: includes/admin/license.php:415
+msgid ""
+"No valid license key has been entered, so automatic updates for Soliloquy "
+"have been turned off. <a href=\"%s\">Please click here to enter your license "
+"key and begin receiving automatic updates.</a>"
+msgstr ""
+"Vous n'avez pas saisi de clé de licence valide, donc les mises à jours "
+"automatiques pour Soliloquy ont été désactivées. <a href=\"%s\">Cliquez ici "
+"pour saisir votre clé de licence et recevoir les mises à jour automatiques.</"
+"a>"
+
+#: includes/admin/license.php:424
+msgid ""
+"Your license key for Soliloquy has expired. <a href=\"%s\" target=\"_blank"
+"\">Please click here to renew your license key and continue receiving "
+"automatic updates.</a>"
+msgstr ""
+"Votre clé de licence Soliloquy a expiré. <a href=\"%s\">Cliquez ici pour "
+"renouveler votre clé de licence et continuer à recevoir les mises à jour "
+"automatiques.</a>"
+
+#: includes/admin/license.php:433
+msgid ""
+"Your license key for Soliloquy has been disabled. Please use a different key "
+"to continue receiving automatic updates."
+msgstr ""
+"Votre clé Soliloquy a été désactivée. Veuillez utiliser une autre clé pour "
+"continuer à recevoir les mises à jour automatiques."
+
+#: includes/admin/license.php:442
+msgid ""
+"Your license key for Soliloquy is invalid. The key no longer exists or the "
+"user associated with the key has been deleted. Please use a different key to "
+"continue receiving automatic updates."
+msgstr ""
+"Votre clé Soliloquy n'est pas valide. Cette clé n'existe plus ou bien "
+"l'utilisateur associé avec la clé a été supprimé. Veuillez utiliser une "
+"autre clé pour continuer à recevoir les mises à jour automatiques."
+
+#: includes/admin/media.php:73 includes/admin/media.php:74
+msgid "Click Here to Insert from Other Image Sources"
+msgstr "Cliquez ici pour insérer des diapos à partir d'autres sources"
+
+#: includes/admin/metaboxes.php:168
+msgid "HTML Slide Code"
+msgstr "Code de la diapo HTML"
+
+#: includes/admin/metaboxes.php:169
+msgid "HTML Slide Title"
+msgstr "Titre de la diapo HTML"
+
+#: includes/admin/metaboxes.php:170
+msgid "Enter HTML slide title here..."
+msgstr "Entrez un titre pour la diapo HTML ici&hellip;"
+
+#: includes/admin/metaboxes.php:171
+msgid ""
+"<!-- Enter your HTML code here for this slide (you can delete this line). -->"
+msgstr ""
+"<!-- Entrez votre code HTML ici pour cette diapo (vous pouvez supprimer "
+"cette ligne) -->"
+
+#: includes/admin/metaboxes.php:172
+msgid "Select Thumbnail"
+msgstr "Choisir la vignette"
+
+#: includes/admin/metaboxes.php:173
+msgid "You must select a file to import before continuing."
+msgstr "Vous devez sélectionner un fichier à importer avant de poursuivre."
+
+#: includes/admin/metaboxes.php:175
+msgid "Inserting..."
+msgstr "Insertion en cours&hellip;"
+
+#: includes/admin/metaboxes.php:180
+msgid "Are you sure you want to remove this slide from the slider?"
+msgstr "Voulez-vous vraiment supprimer cette diapo du diaporama ?"
+
+#: includes/admin/metaboxes.php:182
+msgid "Remove"
+msgstr "Supprimer"
+
+#: includes/admin/metaboxes.php:184
+msgid "Saving..."
+msgstr "Enregistrement en cours&hellip;"
+
+#: includes/admin/metaboxes.php:186
+msgid "Video Slide Caption"
+msgstr "Légende de la vidéo"
+
+#: includes/admin/metaboxes.php:187
+msgid "Video Slide Title"
+msgstr "Titre de la diapo Vidéo"
+
+#: includes/admin/metaboxes.php:188
+msgid "Enter video slide title here..."
+msgstr "Entrez un titre pour la diapo vidéo ici&hellip;"
+
+#: includes/admin/metaboxes.php:189
+msgid "Video Slide URL"
+msgstr "URL de la vidéo"
+
+#: includes/admin/metaboxes.php:190
+msgid "Video Slide Placeholder Image"
+msgstr "Image fixe pour diapo de type Vidéo"
+
+#: includes/admin/metaboxes.php:191
+msgid ""
+"Enter your video placeholder image URL here (or leave blank to pull from "
+"video itself)..."
+msgstr ""
+"URL de votre image fixe (laissez vide pour extraire une image de la vidéo)."
+
+#: includes/admin/metaboxes.php:192 includes/admin/metaboxes.php:1684
+msgid "Choose Video Placeholder Image"
+msgstr "Choisissez une image fixe pour la vidéo"
+
+#: includes/admin/metaboxes.php:193 includes/admin/metaboxes.php:1685
+msgid "Remove Video Placeholder Image"
+msgstr "Supprimer l'image fixe pour la vidéo"
+
+#: includes/admin/metaboxes.php:194
+msgid "Enter your video URL here..."
+msgstr "Entrez l'URL de votre vidéo ici&hellip;"
+
+#: includes/admin/metaboxes.php:195
+msgid "Choose a Video Placeholder Image"
+msgstr "Choisissez une image fixe pour la vidéo"
+
+#: includes/admin/metaboxes.php:196
+msgid "Select Placeholder Image"
+msgstr "Choisissez une image fixe"
+
+#: includes/admin/metaboxes.php:280 includes/admin/settings.php:99
+msgid "Soliloquy Settings"
+msgstr "Réglages du diaporama"
+
+#: includes/admin/metaboxes.php:385
+msgid "Images"
+msgstr "Images"
+
+#: includes/admin/metaboxes.php:386
+msgid "Config"
+msgstr "Configuration"
+
+#: includes/admin/metaboxes.php:387
+msgid "Mobile"
+msgstr "Mobile"
+
+#: includes/admin/metaboxes.php:392
+msgid "Misc"
+msgstr "Divers"
+
+#: includes/admin/metaboxes.php:411
+msgid ""
+"The GD or Imagick libraries are not installed on your server. Soliloquy "
+"requires at least one (preferably Imagick) in order to crop images and may "
+"not work properly without it. Please contact your webhost and ask them to "
+"compile GD or Imagick for your PHP install."
+msgstr ""
+"Les librairies GD ou Imagick ne sont pas installées sur votre serveur. "
+"Soliloquy a besoin de l'une de ces librairies (de préférence Imagick) pour "
+"rogner les images et ne peut donc pas fonctionner correctement dans ces "
+"librairies. Contactez votre administrateur ou votre hébergeur pour leur "
+"demander d'installer ces librairies sur votre installation PHP."
+
+#: includes/admin/metaboxes.php:419
+msgid "Slider Type"
+msgstr "Type de diaporama"
+
+#: includes/admin/metaboxes.php:445 includes/global/common.php:64
+msgid "Default"
+msgstr "Par défaut"
+
+#: includes/admin/metaboxes.php:528
+msgid "(click the icon to open and close the overlay dialog)"
+msgstr "(cliquez l'icône pour ouvrir ou fermer cette boîte)"
+
+#: includes/admin/metaboxes.php:529
+msgid "Click here to view meta information about this slider."
+msgstr "Cliquez ici pour voir les métadonnées de ce diaporama."
+
+# typo in original string: should be ... one OF the shortcode(s)
+#: includes/admin/metaboxes.php:531
+msgid ""
+"You can place this slider anywhere into your posts, pages, custom post types "
+"or widgets by using <strong>one</strong> the shortcode(s) below:"
+msgstr ""
+"Vous pouvez placer ce diaporama n'importe où dans un article, une page, un "
+"article de type personnalisé ou un widget en utilisant <strong>un</strong> "
+"des codes courts (shortcodes) ci-dessous :"
+
+# typo in original string: should be ... one OF the shortcode(s)
+#: includes/admin/metaboxes.php:536
+msgid ""
+"You can also place this slider into your template files by using "
+"<strong>one</strong> the template tag(s) below:"
+msgstr ""
+"Vous pouvez également placer ce diaporama dans un fichier modèle "
+"(<em>template file</em>) en utilisant <strong>une</strong> des étiquettes "
+"(<em>tags</em>) ci-dessous :"
+
+# Please provide 2 different strings for 2 different use cases.
+#: includes/admin/metaboxes.php:564 includes/admin/metaboxes.php:581
+msgid "Insert Slides into Slider"
+msgstr "Insérer des diapos dans le diaporama"
+
+#: includes/admin/metaboxes.php:568
+msgid "Image Slides"
+msgstr "Images"
+
+#: includes/admin/metaboxes.php:569
+msgid "Video Slides"
+msgstr "Vidéos"
+
+#: includes/admin/metaboxes.php:570
+msgid "HTML Slides"
+msgstr "Diapos HTML"
+
+#: includes/admin/metaboxes.php:610
+msgid "Search"
+msgstr "Recherche"
+
+#: includes/admin/metaboxes.php:613
+msgid "Load More Images from Library"
+msgstr "Afficher plus d'images de la bibliothèque"
+
+#: includes/admin/metaboxes.php:648
+msgid "Selecting Images"
+msgstr "Sélectionner des images"
+
+#: includes/admin/metaboxes.php:649
+msgid ""
+"You can insert any image from your Media Library into your slider. If the "
+"image you want to insert is not shown on the screen, you can either click on "
+"the \"Load More Images from Library\" button to load more images or use the "
+"search box to find the images you are looking for."
+msgstr ""
+"Vou pouvez insérer n'importe quelle image de votre Bibliothèque de médias "
+"dans votre diaporama. Si l'image que vous voulez insérer ne s'affiche pas "
+"sur cet écran, vous pouvez soit cliquer sur le bouton \"Afficher plus "
+"d'images de la bibliothèque\", soit utiliser la boite de recherche."
+
+#: includes/admin/metaboxes.php:673
+msgid "Add Video Slide"
+msgstr "Ajouter une diapo de type vidéo"
+
+#: includes/admin/metaboxes.php:679
+msgid ""
+"Video links can be from either YouTube, Vimeo, Wistia or local videos. They "
+"<strong>must</strong> follow one of the formats listed below:"
+msgstr ""
+"Les liens Vidéo peuvent pointer sur YouTube, Vimeo, Wistia ou des vidéos "
+"locales. Ces liens <strong>doivent</strong> respecter l'un des formats ci-"
+"dessous :"
+
+#: includes/admin/metaboxes.php:682
+msgid "YouTube URLs"
+msgstr "URLs YouTube "
+
+#: includes/admin/metaboxes.php:691
+msgid "Vimeo URLs"
+msgstr "URLs Vimeo"
+
+#: includes/admin/metaboxes.php:696
+msgid "Wistia URLs"
+msgstr "URLs Wistia"
+
+#: includes/admin/metaboxes.php:702
+msgid "Local URLs"
+msgstr "URLs locales"
+
+#: includes/admin/metaboxes.php:731
+msgid "Add HTML Slide"
+msgstr "Ajouter une diapo HTML"
+
+#: includes/admin/metaboxes.php:736
+msgid "Creating HTML Slides"
+msgstr "Création de diapos HTML"
+
+#: includes/admin/metaboxes.php:737
+msgid ""
+"Each HTML slide should have its own unique name (for identification "
+"purposes) and code for outputting into the slider. The code will be inserted "
+"inside of the slide <code>&lt;li&gt;</code> tag and can be styled with "
+"custom CSS as you need."
+msgstr ""
+"Chaque diapo de type HTML doit avoir son propre nom (titre) unique (pour les "
+"besoins de l'identification) et son propre code à afficher dans le "
+"diaporama. Le code HTML sera inséré dans le tag <code>&lt;li&gt;</code> de "
+"la diapo et peut être stylé avec une feuille de style CSS personnalisée si "
+"besoin."
+
+#: includes/admin/metaboxes.php:758
+msgid ""
+"The settings below adjust the basic configuration options for the slider "
+"display."
+msgstr ""
+"Les réglages ci-dessous vous permettent de modifier les options de base pour "
+"l'affichage du diaporama."
+
+#: includes/admin/metaboxes.php:763
+msgid "Slider Theme"
+msgstr "Thème"
+
+#: includes/admin/metaboxes.php:771
+msgid "Sets the theme for the slider display."
+msgstr "Réglage du thème utilisé par le diaporama"
+
+#: includes/admin/metaboxes.php:776
+msgid "Slider Dimensions"
+msgstr "Dimensions"
+
+#: includes/admin/metaboxes.php:784 includes/admin/metaboxes.php:837
+#: includes/admin/metaboxes.php:1057
+msgid "px"
+msgstr "px"
+
+#: includes/admin/metaboxes.php:785
+msgid "Sets the width and height dimensions for the slider."
+msgstr "Réglage de la largeur et de la hauteur du diaporama."
+
+#: includes/admin/metaboxes.php:790
+msgid "Slider Transition"
+msgstr "Effet de transition"
+
+#: includes/admin/metaboxes.php:798
+msgid ""
+"Sets the type of transition for the slider. Note: The Ticker transition is "
+"designed for image slides only, and does not provide interactive "
+"functionality (thumbnails, navigation arrows etc). It's designed as a basic, "
+"continuous scrolling slideshow."
+msgstr ""
+"Réglage du type de transition pour le diaporama. Notez que le type \"en "
+"continu\" ne convient qu'aux diapos de type image, et qu'il ne permet pas de "
+"fonctions interactives (vignettes, flèches de navigation, etc.). Il affiche "
+"un diaporama de base, avec défilement horizontal en continu."
+
+#: includes/admin/metaboxes.php:803
+msgid "Slider Transition Duration"
+msgstr "Durée d'affichage de chaque diapo"
+
+#: includes/admin/metaboxes.php:806 includes/admin/metaboxes.php:815
+#: includes/admin/metaboxes.php:859 includes/admin/metaboxes.php:994
+msgid "ms"
+msgstr "ms"
+
+#: includes/admin/metaboxes.php:807
+msgid ""
+"Sets the amount of time between each slide transition <strong>(in "
+"milliseconds)</strong>."
+msgstr ""
+"Réglage de la durée d'affichage de chaque diapo <strong>(en millisecondes)</"
+"strong>."
+
+#: includes/admin/metaboxes.php:812
+msgid "Slider Transition Speed"
+msgstr "Vitesse d'affichage de la transition"
+
+#: includes/admin/metaboxes.php:816
+msgid ""
+"Sets the transition speed when moving from one slide to the next <strong>(in "
+"milliseconds)</strong>."
+msgstr ""
+"Réglage de la vitesse d'affichage de la transition entre 2 diapos  "
+"<strong>(en millisecondes)</strong>."
+
+#: includes/admin/metaboxes.php:821
+msgid "Slider Position"
+msgstr "Alignement"
+
+#: includes/admin/metaboxes.php:829
+msgid "Sets the position of the slider on the page."
+msgstr "Réglage de la position du diaporama sur la page"
+
+#: includes/admin/metaboxes.php:834
+msgid "Slider Gutter"
+msgstr "Gouttière"
+
+#: includes/admin/metaboxes.php:838
+msgid ""
+"Sets the gutter between the slider and your content based on slider position."
+msgstr ""
+"Insère une gouttière (marge) entre le diaporama et le contenu de la page en "
+"fonction de la position du diaporama"
+
+#: includes/admin/metaboxes.php:843
+msgid "Caption Position"
+msgstr "Position de la légende"
+
+#: includes/admin/metaboxes.php:851
+msgid "The position of the caption for each slide, if specified."
+msgstr ""
+"Réglage de l'emplacement de la légende de chaque diapo, si elle existe."
+
+#: includes/admin/metaboxes.php:856
+msgid "Caption Transition Delay"
+msgstr "Délai avant l'affichage de la légende"
+
+#: includes/admin/metaboxes.php:860
+msgid ""
+"The number of milliseconds to delay displaying the caption after the slide "
+"has appeared <strong>(in milliseconds)</strong>. Set to zero for caption to "
+"display immediately."
+msgstr ""
+"Nombre de millisecondes pour retarder l'affichage de la légende après "
+"l'affichage d'une diapo <strong>(en millisecondes)</strong>. Régler sur zéro "
+"(0) pour un affichage immédiat."
+
+#: includes/admin/metaboxes.php:865
+msgid "Autostart Slider?"
+msgstr "Lancement automatique&nbsp;?"
+
+#: includes/admin/metaboxes.php:869
+msgid ""
+"If disabled, visitors will need to manually progress through the slider."
+msgstr ""
+"Si cette option est désactivée, les visiteurs devront naviguer manuellement "
+"dans le diaporama."
+
+#: includes/admin/metaboxes.php:874
+msgid "Show Slider Arrows?"
+msgstr "Afficher les flèches sur le diaporama&nbsp;?"
+
+#: includes/admin/metaboxes.php:878
+msgid "Enables or disables slider navigation arrows."
+msgstr "Activer ou désactiver l'affichage des flèches de navigation."
+
+#: includes/admin/metaboxes.php:883
+msgid "Show Slider Control Nav?"
+msgstr "Afficher les contrôles de navigation&nbsp;?"
+
+#: includes/admin/metaboxes.php:887
+msgid "Enables or disables slider control (typically circles) navigation."
+msgstr ""
+"Activer ou désactiver les contrôles de navigation du diaporama (par défaut "
+"ce sont des cercles)."
+
+#: includes/admin/metaboxes.php:892
+msgid "Show Pause/Play Controls?"
+msgstr "Afficher les boutons Pause/Lecture&nbsp;?"
+
+#: includes/admin/metaboxes.php:896
+msgid "Enables or disables slider pause/play elements."
+msgstr "Activer ou désactiver l'affichage des boutons Pause/Lecture."
+
+#: includes/admin/metaboxes.php:901
+msgid "Pause on Hover?"
+msgstr "Pause au survol&nbsp;?"
+
+#: includes/admin/metaboxes.php:905
+msgid ""
+"Pauses the slider (if set to autostart) when a visitor hovers over the "
+"slider."
+msgstr ""
+"Mettre le diaporama en pause si un visiteur survole le diaporama avec la "
+"souris (si le diaporama est réglé sur démarrage automatique)."
+
+#: includes/admin/metaboxes.php:910
+msgid "Pause on Navigation?"
+msgstr "Pause lors de la navigation&nbsp;?"
+
+#: includes/admin/metaboxes.php:914
+msgid ""
+"To resume autoplay after arrows/control nav are used, disable this option."
+msgstr ""
+"Pour reprendre le déroulement automatique du diaporama après l'utilisation "
+"des flèches ou touches de navigation, désactivez cette option."
+
+#: includes/admin/metaboxes.php:919
+msgid "Enable Mousewheel Navigation?"
+msgstr "Activer navigation à la souris"
+
+#: includes/admin/metaboxes.php:923
+msgid "Enables or disables mousewheel navigation in the slider."
+msgstr ""
+"Activer ou désactiver la navigation dans le diaporama avec la molette de la "
+"souris."
+
+#: includes/admin/metaboxes.php:928
+msgid "Loop Slider?"
+msgstr "Lecture en boucle&nbsp;?"
+
+#: includes/admin/metaboxes.php:932
+msgid "Enables or disables slider looping."
+msgstr "Activer ou désactiver la lecture en boucle du diaporama."
+
+#: includes/admin/metaboxes.php:937
+msgid "Randomize Slider?"
+msgstr "Diaporama aléatoire&nbsp;?"
+
+#: includes/admin/metaboxes.php:941
+msgid "Randomizes slides in the slider."
+msgstr "Tirage aléatoire des diapos du diaporama."
+
+#: includes/admin/metaboxes.php:946
+msgid "Enable Keyboard Navigation?"
+msgstr "Navigation au clavier&nbsp;?"
+
+#: includes/admin/metaboxes.php:950
+msgid "Enables or disables keyboard navigation for the slider."
+msgstr "Activer ou désactiver la navigation au clavier."
+
+#: includes/admin/metaboxes.php:955
+msgid "Use CSS Transitions?"
+msgstr "Utiliser les transitions CSS&nbsp;?"
+
+#: includes/admin/metaboxes.php:959
+msgid "Enables hardware accelerated transitions via CSS."
+msgstr ""
+"Activer ou désactiver l'accélération matérielle des transitions via le CSS."
+
+#: includes/admin/metaboxes.php:964
+msgid "Use Adaptive Height?"
+msgstr "Adapter la hauteur&nbsp;?"
+
+#: includes/admin/metaboxes.php:968
+msgid "Allows the slider to adapt smoothly to slides with different sizes."
+msgstr ""
+"Autoriser le diaporama à s'adapter en douceur aux diapos de hauteurs "
+"différentes."
+
+#: includes/admin/metaboxes.php:973
+msgid "Set Dimensions on Images?"
+msgstr "Modifier les dimensions des images&nbsp;?"
+
+#: includes/admin/metaboxes.php:977
+msgid ""
+"Enables or disables the width and height attributes on the img element. Only "
+"needs to be enabled if you need to meet Google Pagespeeds requirements, or "
+"if you're using Photon CDN and having issues with slider images displaying."
+msgstr ""
+"Activer ou désactiver les attributs de largeur et de hauteur de l'élément "
+"IMG. Activez cette option uniquement si vous rencontrez des problèmes "
+"d'affichage de vos images avec les extensions Google Pagespeeds ou Photon "
+"CDN sur votre site."
+
+#: includes/admin/metaboxes.php:982
+msgid "Crop Images in Slider?"
+msgstr "Rogner les images du diaporama&nbsp;?"
+
+#: includes/admin/metaboxes.php:986
+msgid ""
+"Enables or disables image cropping based on slider dimensions "
+"<strong>(recommended)</strong>."
+msgstr ""
+"Activer ou désactiver le rognage des images en fonction des dimensions du "
+"diaporama <strong>(recommandé)</strong>."
+
+#: includes/admin/metaboxes.php:991
+msgid "Slider Delay"
+msgstr "Différer le départ"
+
+#: includes/admin/metaboxes.php:995
+msgid ""
+"If autostarting, this sets a delay before the slider should begin "
+"transitioning <strong>(in milliseconds)</strong>."
+msgstr ""
+"Si vous avez choisi l'option \"Lancement automatique\", cette option vous "
+"permet de différer le lancement automatique du diaporama  <strong>(de ms "
+"millisecondes)</strong>."
+
+#: includes/admin/metaboxes.php:1000
+msgid "Start On Slide"
+msgstr "Diapositive de départ"
+
+#: includes/admin/metaboxes.php:1004
+msgid "The starting slide number (index based, starts at 0)."
+msgstr ""
+"Numéro de la première diapositive du diaporama (basé sur l'index, qui "
+"commence à 0)."
+
+#: includes/admin/metaboxes.php:1009
+msgid "ARIA Live Value"
+msgstr "Valeur ARIA Live"
+
+#: includes/admin/metaboxes.php:1017
+msgid ""
+"Accessibility: Defines the priority with which screen readers should treat "
+"updates to this slider."
+msgstr ""
+"La valeur par défaut est <strong>Off</strong>. La valeur <strong>Polite</"
+"strong> indique au lecteur d’écran qu’il doit attendre que l’utilisateur "
+"soir inactif avant de lui présenter une mise à jour. C’est la valeur la plus "
+"utilisée, car interrompre l’utilisateur avec la valeur <strong>Assertive</"
+"strong> briserait son flux de lecture."
+
+#: includes/admin/metaboxes.php:1040
+msgid ""
+"The settings below adjust configuration options for the slider display when "
+"viewed on a mobile device."
+msgstr ""
+"Les réglages ci-dessous vous permettent d'ajuster les options de "
+"configuration du diaporama pour un affichage sur un dispositif mobile."
+
+#: includes/admin/metaboxes.php:1045
+msgid "Create Mobile Slider Images?"
+msgstr "Créer des images pour mobile&nbsp;?"
+
+#: includes/admin/metaboxes.php:1049
+msgid "Enables or disables creating specific images for mobile devices."
+msgstr ""
+"Activer ou désactiver  la création d'images spécifiques pour les dispositifs "
+"mobiles."
+
+#: includes/admin/metaboxes.php:1054
+msgid "Mobile Dimensions"
+msgstr "Dimensions"
+
+#: includes/admin/metaboxes.php:1058
+msgid "These will be the sizes used for images displayed on mobile devices."
+msgstr ""
+"Dimensions des images qui seront affichées sur les dispositifs mobiles."
+
+#: includes/admin/metaboxes.php:1063
+msgid "Show Captions on Mobile?"
+msgstr "Afficher les légendes sur mobile&nbsp;?"
+
+#: includes/admin/metaboxes.php:1067
+msgid "Enables or disables captions to be displayed on mobile."
+msgstr "Activer ou désactiver  l'affichage des légendes sur mobile."
+
+#: includes/admin/metaboxes.php:1090
+msgid ""
+"The settings below adjust the miscellaneous settings for the slider lightbox "
+"display."
+msgstr ""
+"Les réglages ci-dessous vous permettent de modifier diverses options pour "
+"l'affichage du diaporama."
+
+#: includes/admin/metaboxes.php:1095
+msgid "Slider Title"
+msgstr "Titre du diaporama"
+
+#: includes/admin/metaboxes.php:1099
+msgid "Internal slider title for identification in the admin."
+msgstr ""
+"Titre à usage interne pour identifier le diaporama en mode administration."
+
+#: includes/admin/metaboxes.php:1104
+msgid "Slider Slug"
+msgstr "Identifiant du diaporama"
+
+#: includes/admin/metaboxes.php:1108
+msgid ""
+"<strong>Unique</strong> internal slider slug for identification and advanced "
+"slider queries."
+msgstr ""
+"Identifiant <strong>unique</strong> interne du diaporama (\"slug\") utilisé "
+"par des requêtes avancées."
+
+#: includes/admin/metaboxes.php:1113
+msgid "Custom Slider Classes"
+msgstr "Classes CSS personnalisées"
+
+#: includes/admin/metaboxes.php:1116
+msgid "Enter custom slider CSS classes here, one per line."
+msgstr "Saisissez ici vos classes CSS, une par ligne."
+
+#: includes/admin/metaboxes.php:1117
+msgid "Adds custom CSS classes to this slider. Enter one class per line."
+msgstr "Ajouter des classes CSS personnalisées, une par ligne."
+
+#: includes/admin/metaboxes.php:1122
+msgid "Import/Export Slider"
+msgstr "Importer/Exporter un diaporama"
+
+#: includes/admin/metaboxes.php:1135
+msgid "Import Slider"
+msgstr "Importer"
+
+#: includes/admin/metaboxes.php:1142
+msgid "Export Slider"
+msgstr "Exporter"
+
+#: includes/admin/metaboxes.php:1148
+msgid "Enable RTL Support?"
+msgstr "Activer le support RTL&nbsp;?"
+
+#: includes/admin/metaboxes.php:1152
+msgid ""
+"Enables or disables RTL support in Soliloquy for right-to-left languages."
+msgstr ""
+"Activer ou désactiver le support RTL pour les langues qui s'écrivent de "
+"droite à gauche ."
+
+#: includes/admin/metaboxes.php:1367
+msgid "Remove Image Slide from Slider?"
+msgstr "Supprimer cette diapo du diaporama ?"
+
+#: includes/admin/metaboxes.php:1368
+msgid "Modify Image Slide"
+msgstr "Editer les données de la diapo"
+
+#: includes/admin/metaboxes.php:1390
+msgid "Video"
+msgstr "Vidéo"
+
+#: includes/admin/metaboxes.php:1410
+msgid "Remove Video Slide from Slider?"
+msgstr "Supprimer cette vidéo du diaporama ?"
+
+#: includes/admin/metaboxes.php:1411
+msgid "Modify Video Slide"
+msgstr "Editer les données de la vidéo."
+
+#: includes/admin/metaboxes.php:1434
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/admin/metaboxes.php:1443
+msgid "Remove HTML Slide from Slider?"
+msgstr "Supprimer la diapo HTML du diaporama ?"
+
+#: includes/admin/metaboxes.php:1444
+msgid "Modify HTML Slide"
+msgstr "Editer la diapo HTML"
+
+#: includes/admin/metaboxes.php:1479 includes/admin/metaboxes.php:1662
+#: includes/admin/metaboxes.php:1835
+msgid "Edit previous media item"
+msgstr "Editer l'item précédent"
+
+#: includes/admin/metaboxes.php:1482 includes/admin/metaboxes.php:1665
+#: includes/admin/metaboxes.php:1838
+msgid "Edit next media item"
+msgstr "Editer l'item suivant"
+
+#: includes/admin/metaboxes.php:1488 includes/admin/metaboxes.php:1671
+#: includes/admin/metaboxes.php:1844
+msgid "Edit Metadata"
+msgstr "Modifier les métadonnées de l'image"
+
+#: includes/admin/metaboxes.php:1509
+msgid "Images and SEO"
+msgstr "Référencement des images"
+
+#: includes/admin/metaboxes.php:1510
+msgid ""
+"Images are a small but important part of your overall SEO strategy. In order "
+"to get the most SEO benefits from your slider, it is recommended that you "
+"fill out each applicable field with SEO friendly information about the image."
+msgstr ""
+"Les images sont une petite partie mais une partie importante de votre "
+"stratégie globale de référencement. Pour retirer le référencement maximal de "
+"votre diaporama, il est recommandé de remplir chacun des champs ci-dessous "
+"avec une information appropriée pour le référencement de votre image."
+
+#: includes/admin/metaboxes.php:1516 includes/admin/metaboxes.php:1560
+#: includes/admin/metaboxes.php:1696 includes/admin/metaboxes.php:1740
+#: includes/admin/metaboxes.php:1867 includes/admin/metaboxes.php:1897
+#: includes/admin/posttype.php:79 includes/global/widget.php:148
+msgid "Title"
+msgstr "Titre"
+
+#: includes/admin/metaboxes.php:1517
+msgid "Sets the image title attribute for the image."
+msgstr "Indique l'attribut \"title\" de l'image."
+
+#: includes/admin/metaboxes.php:1523 includes/admin/metaboxes.php:1567
+msgid "Alt Text"
+msgstr "Alt Text"
+
+#: includes/admin/metaboxes.php:1524
+msgid ""
+"The image alt text is used for SEO, so make sure you complete this field!"
+msgstr ""
+"L'attribut \"alt text\" (texte alternatif) est utilisé pour le "
+"référencement, donc n'oubliez pas de remplir ce champ !"
+
+#: includes/admin/metaboxes.php:1530 includes/admin/metaboxes.php:1574
+msgid "Hyperlink"
+msgstr "Lien hypertexte"
+
+#: includes/admin/metaboxes.php:1531
+msgid ""
+"The image hyperlink field is used when you click on an image in the slider."
+msgstr "Lien hypertexte utilisé quand vous cliquez sur une image du diaporama."
+
+#: includes/admin/metaboxes.php:1537 includes/admin/metaboxes.php:1588
+#: includes/admin/metaboxes.php:1717 includes/admin/metaboxes.php:1761
+msgid "Caption"
+msgstr "Légende"
+
+#: includes/admin/metaboxes.php:1538 includes/admin/metaboxes.php:1718
+msgid ""
+"Captions can take any type of HTML content, such as <code>form</code>, "
+"<code>iframe</code> and <code>h1</code> tags."
+msgstr ""
+"Les légendes acceptent tout type de contenu HTML, tels que les tags "
+"<code>form</code>, <code>iframe</code> et <code>h1</code>."
+
+#: includes/admin/metaboxes.php:1551 includes/admin/metaboxes.php:1731
+#: includes/admin/metaboxes.php:1888
+msgid "Status"
+msgstr "Statut"
+
+#: includes/admin/metaboxes.php:1553 includes/admin/metaboxes.php:1733
+#: includes/admin/metaboxes.php:1890 includes/admin/settings.php:472
+msgid "Draft"
+msgstr "Brouillon"
+
+#: includes/admin/metaboxes.php:1554 includes/admin/metaboxes.php:1734
+#: includes/admin/metaboxes.php:1891 includes/admin/settings.php:471
+msgid "Published"
+msgstr "Publié"
+
+#: includes/admin/metaboxes.php:1581
+msgid "Open Link in New Tab? "
+msgstr "Ouvrir le lien dans un nouvel onglet ?"
+
+#: includes/admin/metaboxes.php:1613 includes/admin/metaboxes.php:1786
+#: includes/admin/metaboxes.php:1918
+msgid "Save Metadata"
+msgstr "Enregistrer les métadonnées"
+
+#: includes/admin/metaboxes.php:1618 includes/admin/metaboxes.php:1791
+#: includes/admin/metaboxes.php:1923
+msgid "Saved."
+msgstr "Enregistré"
+
+#: includes/admin/metaboxes.php:1697 includes/admin/metaboxes.php:1868
+msgid ""
+"The title can take any type of HTML. You can adjust the position of the "
+"titles in the main Lightbox settings."
+msgstr ""
+"Le titre accepte tout type de code HTML. Vous pouvez ajuster le position des "
+"titres dans les réglages de votre Lightbox."
+
+#: includes/admin/metaboxes.php:1703 includes/admin/metaboxes.php:1747
+msgid "URL"
+msgstr "URL"
+
+#: includes/admin/metaboxes.php:1704
+msgid "The URL of the YouTube / Vimeo video."
+msgstr "URL de la vidéo YouTube / Vimeo."
+
+#: includes/admin/metaboxes.php:1710 includes/admin/metaboxes.php:1754
+msgid "Placeholder"
+msgstr "Image fixe"
+
+#: includes/admin/metaboxes.php:1711
+msgid ""
+"Either choose a video placeholder image, or let Soliloquy automatically "
+"fetch one from the video source."
+msgstr ""
+"Choisissez une image fixe pour la vidéo ou bien laissez Soliloquy en choisir "
+"une automatiquement à partir de la vidéo source."
+
+#: includes/admin/metaboxes.php:1874 includes/admin/metaboxes.php:1904
+msgid "Code"
+msgstr "Code"
+
+#: includes/admin/metaboxes.php:1875
+msgid ""
+"Remember, custom HTML slides are, in fact, custom. You are responsible for "
+"styling and manipulating the code you insert into the slide; with great "
+"power comes great responsibility."
+msgstr ""
+"N'oubliez pas que les diapos de type HTML sont en fait personnalisées par "
+"vous. Vous êtes enrièrement responsable du style et du code que vous insérez "
+"dans la diapo. Donc, attention à y mettre du code correct !"
+
+#: includes/admin/posttype.php:80
+msgid "Shortcode"
+msgstr "Code court (shortcode)"
+
+#: includes/admin/posttype.php:81
+msgid "Template Tag"
+msgstr "Etiquette (Template Tag)"
+
+#: includes/admin/posttype.php:82
+msgid "Number of Images"
+msgstr "Nombre d'images"
+
+#: includes/admin/posttype.php:83
+msgid "Last Modified"
+msgstr "Dernière modification"
+
+#: includes/admin/posttype.php:84
+msgid "Date"
+msgstr "Date"
+
+#: includes/admin/posttype.php:161 includes/admin/posttype.php:164
+msgid "Soliloquy slider updated."
+msgstr "Diaporama Soliloquy mis à jour."
+
+#: includes/admin/posttype.php:162
+msgid "Soliloquy slider custom field updated."
+msgstr "Champ personnalisé de diaporama Soliloquy mis à jour."
+
+#: includes/admin/posttype.php:163
+msgid "Soliloquy slider custom field deleted."
+msgstr "Champ personnalisé de diaporama Soliloquy supprimé."
+
+#: includes/admin/posttype.php:165
+msgid "Soliloquy slider restored to revision from %s."
+msgstr "Diaporama Soliloquy restauré pour révision depuis  %s."
+
+#: includes/admin/posttype.php:166
+msgid "Soliloquy slider published."
+msgstr "Diaporama Soliloquy publié."
+
+#: includes/admin/posttype.php:167
+msgid "Soliloquy slider saved."
+msgstr "Diaporama Soliloquy enregistré."
+
+#: includes/admin/posttype.php:168
+msgid "Soliloquy slider submitted."
+msgstr "Diaporama Soliloquy soumis."
+
+#: includes/admin/posttype.php:169
+msgid "Soliloquy slider scheduled for: <strong>%1$s</strong>."
+msgstr "Diaporama Soliloquy planifié pour : <strong>%1$s</strong>."
+
+#: includes/admin/posttype.php:169
+msgid "M j, Y @ G:i"
+msgstr "j M Y @ G:i"
+
+#: includes/admin/posttype.php:170
+msgid "Soliloquy slider draft updated."
+msgstr "Diaporama Soliloquy : brouillon mis à jour."
+
+#: includes/admin/posttype.php:267
+msgid ""
+" slider(s) fixed successfully. This is a one time operation, and you don't "
+"need to do anything else."
+msgstr ""
+"diaporama(s) réparé(s) avec succès. Cette opération ne s'exécute qu'une "
+"seule fois et vous n'avez rien d'autre à faire."
+
+#: includes/admin/settings.php:100 includes/admin/settings.php:734
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/admin/settings.php:251
+msgid " slider(s) fixed successfully."
+msgstr "diaporama(s) réparé(s) avec succès."
+
+#: includes/admin/settings.php:265
+msgid "Settings updated."
+msgstr "Réglages mis à jour."
+
+#: includes/admin/settings.php:312 includes/admin/settings.php:560
+msgid "Status: Active"
+msgstr "Statut : Activé"
+
+#: includes/admin/settings.php:313 includes/admin/settings.php:581
+msgid "Activate"
+msgstr "Activer"
+
+#: includes/admin/settings.php:315
+msgid "Activating..."
+msgstr "Activation en cours&hellip;"
+
+#: includes/admin/settings.php:317 includes/admin/settings.php:562
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: includes/admin/settings.php:319
+msgid "Deactivating..."
+msgstr "Désactivation en cours&hellip;"
+
+#: includes/admin/settings.php:320 includes/admin/settings.php:579
+msgid "Status: Inactive"
+msgstr "Statut : Inactif"
+
+#: includes/admin/settings.php:321 includes/admin/settings.php:572
+msgid "Install Addon"
+msgstr "Installer l'extension"
+
+#: includes/admin/settings.php:323
+msgid "Installing..."
+msgstr "En cours d'installation&hellip;"
+
+#: includes/admin/settings.php:324
+msgid "Proceed"
+msgstr "Poursuivre"
+
+#: includes/admin/settings.php:375
+msgid "General"
+msgstr "Réglages généraux"
+
+#: includes/admin/settings.php:376
+msgid "Addons"
+msgstr "Extensions"
+
+#: includes/admin/settings.php:391
+msgid "Upgrade"
+msgstr "Mise à niveau"
+
+#: includes/admin/settings.php:416
+msgid "Soliloquy License Key"
+msgstr "Clé de licence"
+
+#: includes/admin/settings.php:422
+msgid "Verify Key"
+msgstr "Vérifier la clé."
+
+#: includes/admin/settings.php:423
+msgid "Deactivate Key"
+msgstr "Désactiver la clé"
+
+#: includes/admin/settings.php:424
+msgid "License key to enable automatic updates for Soliloquy."
+msgstr ""
+"La clé de licence pour activer les mises à jour automatiques pour Soliloquy."
+
+#: includes/admin/settings.php:431
+msgid "Soliloquy License Key Type"
+msgstr "Type de clé de licence Soliloquy"
+
+#: includes/admin/settings.php:435
+msgid "Your license key type for this site is <strong>%s.</strong>"
+msgstr "Votre type de clé de licence pour ce site est <strong>%s.</strong>"
+
+#: includes/admin/settings.php:438
+msgid "Refresh Key"
+msgstr "Rafraichir la clé"
+
+#: includes/admin/settings.php:439
+msgid ""
+"Your license key type (handles updates and Addons). Click refresh if your "
+"license has been upgraded or the type is incorrect."
+msgstr ""
+"Votre type de clé de licence  (traite les mises à jour et les Extensions). "
+"Cliquez Rafraichir si votre licence a été mise à niveau ou si le type "
+"indiqué est incorrect."
+
+#: includes/admin/settings.php:447
+msgid "Fix Broken Migration"
+msgstr "Réparer une migration défectueuse"
+
+#: includes/admin/settings.php:452
+msgid "Fix"
+msgstr "Réparer"
+
+#: includes/admin/settings.php:453
+msgid ""
+"If you have changed the URL of your WordPress web site, and manually "
+"executed a search/replace query on URLs in your WordPress database, your "
+"sliders will probably no longer show any slides.  <strong>If this is the "
+"case</strong>, click the button above to fix this. We recommend using a "
+"migration plugin or script next time :)"
+msgstr ""
+"Si vous avez changé l'URL de votre site WordPress, et exécuté manuellement "
+"une opération rechercher & remplacer sur les URLs de votre base de données "
+"WordPress, vos diaporamas n'afficheront probablement plus leurs "
+"diapositives. <strong>Dans ce cas</strong>, cliquez sur le bouton ci-dessus "
+"pour réparer ce problème. Nous vous recommandons plutôt d'utiliser un script "
+"ou une extension de migration la prochaine fois :)"
+
+#: includes/admin/settings.php:467
+msgid "New Slide Status"
+msgstr "Nouveau statut de la diapo"
+
+#: includes/admin/settings.php:474
+msgid ""
+"Choose the default status of any new slides that are added/uploaded to your "
+"Soliloquy sliders. You can always change slides on an individual basis by "
+"editing them."
+msgstr ""
+"Indiquez le statut des nouvelles diapos ajoutées à vos diaporamas Soliloquy. "
+"Vous pouvez toujours modifier ce statut pour chaque diapo individuellement "
+"en les éditant."
+
+#: includes/admin/settings.php:481
+msgid "New Slide Position"
+msgstr "Emplacement des nouvelles diapos"
+
+#: includes/admin/settings.php:489
+msgid ""
+"When adding slides to a Slider, choose whether to add slides before or after "
+"any existing slides."
+msgstr ""
+"Lorsque vous ajoutez des diapos à un diaporama, indiquez si le nouvelles "
+"diapos prendront place avant ou après les diapos existantes."
+
+#: includes/admin/settings.php:501
+msgid "Update"
+msgstr "Enregistrer"
+
+#: includes/admin/settings.php:530
+msgid ""
+"In order to get access to Addons, you need to verify your license key for "
+"Soliloquy."
+msgstr ""
+"Pour avoir accès aux Extensions vous devez d'abord procéder à la "
+"vérification de votre clé de licence Soliloquy."
+
+#: includes/admin/settings.php:534
+msgid ""
+"Missing addons that you think you should be able to see? Try clicking the "
+"button below to refresh the addon data."
+msgstr ""
+"Il manque des extensions que vous devriez voir ? Cliquez le bouton ci-"
+"dessous pour rafraichir la liste."
+
+#: includes/admin/settings.php:536 includes/admin/settings.php:596
+msgid "Refresh Addons"
+msgstr "Rafraîchir la liste des extensions"
+
+#: includes/admin/settings.php:570
+msgid "Status: Not Installed"
+msgstr "Statut : Pas installé"
+
+#: includes/admin/settings.php:594
+msgid ""
+"There was an issue retrieving the addons for this site. Please click on the "
+"button below the refresh the addons data."
+msgstr ""
+"Il y a eu un problème lors de l'accès aux Extensions sur ce site. Merci de "
+"cliquer sur le bouton ci-dessus pour rafraichir vos données d'extensions."
+
+#: includes/admin/settings.php:602
+msgid ""
+"In order to get access to Addons, you need to resolve your license key "
+"errors."
+msgstr ""
+"Pour avoir accès aux Extensions vous devez d'abord résoudre les problèmes "
+"d'erreur de clé de licence."
+
+#: includes/admin/settings.php:617
+msgid ""
+"You have upgraded to v2 of Soliloquy. You need to upgrade your sliders using "
+"our custom upgrading tool. Click on the button below to start the process."
+msgstr ""
+"Vous avez migré vers la version 2 de Soliloquy. Vous devez mettre à jour vos "
+"diaporamas en utilisant notre outil de migration personnalisé. Cliquez sur "
+"le bouton ci-dessous pour lancer cette opération."
+
+#: includes/admin/settings.php:618
+msgid "Click Here to Start the Upgrade Process"
+msgstr "Cliquez ici pour lancer l'opération de mise à jour."
+
+#: includes/admin/skin.php:79
+msgid "There was an error installing the addon. Please try again."
+msgstr ""
+"Une erreur s'est produite lors de l'installation de l'extension. Veuillez "
+"réessayer."
+
+#: includes/global/common.php:72
+msgid "Full Width"
+msgstr "Taille réelle"
+
+#: includes/global/common.php:121
+msgid "Base"
+msgstr "Basique"
+
+#: includes/global/common.php:126
+msgid "Classic"
+msgstr "Classique"
+
+#: includes/global/common.php:147
+msgid "Fade"
+msgstr "Fondu"
+
+#: includes/global/common.php:151
+msgid "Scroll Horizontal"
+msgstr "Défilement horizontal"
+
+#: includes/global/common.php:155
+msgid "Scroll Vertical"
+msgstr "Défilement vertical"
+
+#: includes/global/common.php:159
+msgid "Ticker (Continuous) Scroll Horizontal"
+msgstr "Défilement horizontal en continu"
+
+#: includes/global/common.php:179
+msgid "Center"
+msgstr "Centre"
+
+#: includes/global/common.php:183 includes/global/common.php:219
+msgid "Left"
+msgstr "Gauche"
+
+#: includes/global/common.php:187 includes/global/common.php:223
+msgid "Right"
+msgstr "Droite"
+
+#: includes/global/common.php:191
+msgid "None"
+msgstr "Aucun"
+
+#: includes/global/common.php:211
+msgid "Top"
+msgstr "Haut"
+
+#: includes/global/common.php:215
+msgid "Bottom"
+msgstr "Bas"
+
+#: includes/global/common.php:243
+msgid "Off"
+msgstr "Off"
+
+#: includes/global/common.php:247
+msgid "Polite"
+msgstr "Polite"
+
+#: includes/global/common.php:251
+msgid "Assertive"
+msgstr "Assertive"
+
+#: includes/global/common.php:354
+msgid "Image Files"
+msgstr "Fichiers d'images"
+
+#: includes/global/common.php:515
+msgid ""
+"No image editor could be selected. Please verify with your webhost that you "
+"have either the GD or Imagick image library compiled with your PHP install "
+"on your server."
+msgstr ""
+"Aucun éditeur d'image disponible. Contactez votre administrateur ou votre "
+"hébergeur pour leur demander de vérifier que les librairies GD ou Imagick "
+"ont bien été compilées avec votre installation PHP sur ce serveur."
+
+#: includes/global/common.php:618
+msgid "No image URL specified for cropping."
+msgstr "Vous n'avez pas indiqué d'URL pour le rognage."
+
+#: includes/global/common.php:637
+msgid "No file could be found for the image URL specified."
+msgstr "Aucun fichier trouvé pour l'URL d'image indiquée."
+
+#: includes/global/common.php:645 includes/global/common.php:657
+msgid ""
+"The dimensions of the original image could not be retrieved for cropping."
+msgstr ""
+"Impossible de trouver les dimensions de l'image originale pour procéder à "
+"son rognage."
+
+#: includes/global/posttype.php:51
+msgid "Soliloquy Sliders"
+msgstr "Diaporamas Soliloquy"
+
+#. Plugin Name of the plugin/theme
+#: includes/global/posttype.php:52 includes/global/posttype.php:62
+#: includes/global/widget.php:64
+msgid "Soliloquy"
+msgstr "Soliloquy"
+
+#: includes/global/posttype.php:53
+msgid "Add New"
+msgstr "Ajouter"
+
+#: includes/global/posttype.php:54
+msgid "Add New Soliloquy Slider"
+msgstr "Nouveau diaporama"
+
+#: includes/global/posttype.php:55
+msgid "Edit Soliloquy Slider"
+msgstr "Édition du diaporama"
+
+#: includes/global/posttype.php:56
+msgid "New Soliloquy Slider"
+msgstr "Nouveau diaporama Soliloquy"
+
+#: includes/global/posttype.php:57
+msgid "View Soliloquy Slider"
+msgstr "Voir le diaporama Soliloquy."
+
+#: includes/global/posttype.php:58
+msgid "Search Soliloquy Sliders"
+msgstr "Chercher un diaporama"
+
+#: includes/global/posttype.php:59
+msgid "No Soliloquy sliders found."
+msgstr "Aucun diaporama Soliloquy trouvé."
+
+#: includes/global/posttype.php:60
+msgid "No Soliloquy sliders found in trash."
+msgstr "Aucun diaporama Soliloquy trouvé dans la poubelle."
+
+#: includes/global/shortcode.php:467
+msgid ""
+"<p><strong>Oops - it looks like we had trouble retrieving data about the "
+"video you requested. Please make sure your video URL is supported and in the "
+"proper format.</strong></p>"
+msgstr ""
+"<p><strong>Oups - Il semblerait qu'on n'arrive pas à récupérer les données "
+"de la vidéo que vous avez demandée. Veuillez vérifier que l'URL de cette "
+"vidéo est valide et au bon format.</strong></p>"
+
+#: includes/global/widget.php:52
+msgid "Place a Soliloquy slider into a widgetized area."
+msgstr "Déposer un diaporama Soliloquy dans une zone de Widget."
+
+#: includes/global/widget.php:153
+msgid "Slider"
+msgstr "Diaporama"
+
+#: soliloquy.php:577
+msgid ""
+"Sorry, but your version of WordPress does not meet Soliloquy's required "
+"version of <strong>3.5.1</strong> to run properly. The plugin has been "
+"deactivated. <a href=\"%s\">Click here to return to the Dashboard</a>."
+msgstr ""
+"Désolé mais votre version de WordPress ne correspond pas à la version "
+"minimale <strong>3.5.1</strong> requise par Soliloquy pour fonctionner "
+"correctement. L'extension a été désactivée. <a href=\"%s\">Cliquez ici pour "
+"retourner au Tableau de bord</a>."
+
+#. Plugin URI of the plugin/theme
+msgid "http://soliloquywp.com"
+msgstr "http://soliloquywp.com"
+
+#. Description of the plugin/theme
+msgid "Soliloquy is best responsive WordPress slider plugin."
+msgstr "Soliloquy is best responsive WordPress slider plugin."
+
+#. Author of the plugin/theme
+msgid "Thomas Griffin"
+msgstr "Thomas Griffin"
+
+#. Author URI of the plugin/theme
+msgid "http://thomasgriffinmedia.com"
+msgstr "http://thomasgriffinmedia.com"

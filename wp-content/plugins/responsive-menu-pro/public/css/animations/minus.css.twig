@@ -1,0 +1,23 @@
+.responsive-menu-pro-minus .responsive-menu-pro-inner::before,
+.responsive-menu-pro-minus .responsive-menu-pro-inner::after {
+     transition: bottom 0.08s 0s ease-out,
+     top 0.08s 0s ease-out,
+     opacity 0s linear;
+ }
+
+.responsive-menu-pro-minus.is-active::before,
+.responsive-menu-pro-minus.is-active::after {
+     opacity: 0;
+     transition: bottom 0.08s ease-out,
+     top 0.08s ease-out,
+     opacity 0s 0.08s linear;
+}
+
+.responsive-menu-pro-minus.is-active .responsive-menu-pro-inner::before {
+     top: 0;
+ }
+
+.responsive-menu-pro-minus.is-active .responsive-menu-pro-inner::after {
+     bottom: 0;
+ }
+

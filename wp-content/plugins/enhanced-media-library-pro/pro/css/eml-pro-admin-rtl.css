@@ -1,0 +1,186 @@
+
+/* == EML Grid == */
+
+.media-frame.mode-eml-grid .media-frame-content {
+    bottom: 60px;
+}
+
+
+
+
+/* == Sidebar :: Attachments Details == */
+
+.media-frame .attachments-detail {
+    position: relative;
+    overflow: auto;
+}
+
+
+
+
+/* == Media Selection == */
+
+body.eml-media-css .media-selection {
+    left: 320px;
+}
+body.eml-media-css .media-selection:after {
+    background-image: none;
+}
+
+body.eml-media-css .media-selection.empty {
+    display: block;
+}
+
+body.eml-media-css .media-selection .button-link {
+    border-left: 0;
+    border-right: 1px solid #ddd;
+}
+body.eml-media-css .media-selection .button-link:first-of-type {
+    border-right: 0;
+}
+
+body.eml-media-css .media-selection .select,
+body.eml-media-css .media-selection .restore,
+body.eml-media-css .media-selection .delete-permanently {
+    display: none;
+}
+
+body.eml-media-css .media-selection.empty .select {
+    display: block;
+}
+
+body.eml-media-css .media-selection.empty .delete,
+body.eml-media-css .media-selection.empty .trash,
+body.eml-media-css .media-selection.empty .deselect,
+body.eml-media-css .media-selection.empty .restore,
+body.eml-media-css .media-selection.empty .delete-permanently {
+    display: none;
+}
+
+body.eml-media-css .media-selection.trash .delete,
+body.eml-media-css .media-selection.trash .trash {
+    display: none;
+}
+
+body.eml-media-css .media-selection.trash .restore,
+body.eml-media-css .media-selection.trash .delete-permanently {
+    display: block;
+}
+
+body.eml-media-css .media-selection.trash.empty .restore,
+body.eml-media-css .media-selection.trash.empty .delete-permanently {
+    display: none;
+}
+
+body.eml-media-css .media-selection .delete,
+body.eml-media-css .media-selection .trash,
+body.eml-media-css .media-selection .delete-permanently  {
+    color: red;
+}
+body.eml-media-css .media-selection .delete:hover,
+body.eml-media-css .media-selection .trash:hover,
+body.eml-media-css .media-selection .delete-permanently:hover {
+    background: red;
+    color: #fff;
+}
+body.eml-media-css .media-selection .deselect {
+    color: #21759B;
+}
+body.eml-media-css .media-selection .deselect:hover {
+    background: #21759B;
+    color: #fff;
+}
+
+
+
+
+/* == Sidebar :: Gallery Settings == */
+
+body.eml-media-css .media-sidebar .setting.limit input {
+    float: none;
+    width: 50px;
+    max-width: 65%;
+    padding: 5px 6px 4px 6px;
+    margin-top: 3px;
+    line-height: 12px;
+}
+
+
+
+
+/* == Bulk Edit Save Changes Button == */
+
+.media-frame.mode-eml-grid .media-frame-toolbar {
+    display: block;
+    bottom: 0;
+    height: 60px;
+}
+.media-frame .media-frame-toolbar .media-toolbar-primary {
+    position: relative;
+    width: auto;
+}
+.media-frame.mode-eml-grid .media-frame-toolbar .media-toolbar {
+    padding: 0;
+    bottom: 0;
+    height: 60px;
+}
+.media-frame .media-frame-toolbar .eml-button-bulk-save-changes,
+.media-toolbar-primary > .media-button,
+.media-toolbar-primary > .media-button-group {
+    float: left;
+}
+.media-frame .media-frame-toolbar #eml-bulk-save-changes-spinner {
+    display: inline-block;
+    float: left;
+    margin-top: 19px;
+}
+.media-frame .media-frame-toolbar #eml-bulk-save-changes-failure,
+.media-frame .media-frame-toolbar #eml-bulk-save-changes-success {
+    white-space: nowrap;
+    float: left;
+    margin: 10px 0 0 5px;
+    display: none;
+}
+
+@media only screen and (max-width: 640px) {
+
+    .media-frame.mode-eml-grid .media-frame-toolbar .media-toolbar-primary {
+        display: none;
+    }
+}
+
+
+
+
+/* == EML Bulk Edit popup == */
+
+.media-frame.mode-eml-bulk-edit .attachments-browser .attachments {
+    top: 10px;
+}
+
+
+
+
+/* == Media Uploader Bulk Edit Button == */
+
+.eml-bulk-edit-button-container {
+    margin: 20px 0;
+}
+
+
+
+
+/* == EML Settings Page Styles == */
+
+#wpuxss-eml-form-updates .postbox h4 {
+    padding: 0;
+    margin: 0;
+}
+#wpuxss-eml-form-updates #wpuxss_eml_pro_license_key {
+    width: 100%;
+}
+
+#wpuxss-eml-global-options-wrap p.submit {
+    margin-top: 10px;
+
+}

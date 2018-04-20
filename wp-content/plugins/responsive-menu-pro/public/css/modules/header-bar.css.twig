@@ -1,0 +1,72 @@
+#responsive-menu-pro-header {
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    z-index: 99998;
+}
+
+#responsive-menu-pro-header .responsive-menu-pro-header-box {
+    display: inline-block;
+}
+
+#responsive-menu-pro-header .responsive-menu-pro-header-box,
+#responsive-menu-pro-header .responsive-menu-pro-header-box img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+#responsive-menu-pro-header #responsive-menu-pro-header-bar-logo img {
+    {% if options.header_bar_logo_height %}
+        height: {{ options.header_bar_logo_height }}{{ options.header_bar_logo_height_unit }};
+    {% endif %}
+    {% if options.header_bar_logo_width %}
+        width: {{ options.header_bar_logo_width }}{{ options.header_bar_logo_width_unit }};
+    {% endif %}
+}
+
+#responsive-menu-pro-header button#responsive-menu-pro-button {
+    position: relative;
+    margin: 0;
+    left: auto;
+    right: auto;
+    bottom: auto;
+}
+
+#responsive-menu-pro-header .responsive-menu-pro-header-box {
+    margin-right: 2%;
+}
+
+@media screen and (max-width: {{ options.header_bar_breakpoint }}px) {
+
+    {% if options.header_bar_adjust_page %}
+        body {
+            margin-top: {{ options.header_bar_height }}{{ options.header_bar_height_unit }};
+        }
+    {% endif %}
+
+    #responsive-menu-pro-header {
+        position: {{ options.header_bar_position_type }};
+        background-color: {{ options.header_bar_background_color }};
+        height: {{ options.header_bar_height }}{{ options.header_bar_height_unit }};
+        color: {{ options.header_bar_text_color }};
+        display: block;
+        font-size: {{ options.header_bar_font_size }}{{ options.header_bar_font_size_unit }};
+        {% if options.header_bar_font %}
+            font-family: '{{ options.header_bar_font }}';
+        {% endif %}
+    }
+
+    #responsive-menu-pro-header .responsive-menu-pro-header-bar-item {
+        line-height: {{ options.header_bar_height }}{{ options.header_bar_height_unit }};
+    }
+
+    #responsive-menu-pro-header a {
+        color: {{ options.header_bar_text_color }};
+        text-decoration: none;
+    }
+
+}
